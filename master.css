@@ -1,0 +1,82 @@
+
+body {
+	background-color:black; 
+	color:orange; text-align:center; 
+	font-family: Georgia, "Courier New", serif; 
+	/*font-size:14pt;*/
+}
+	
+h1 {
+	background-color:orange; 
+	color:black; 
+	text-align:center; 
+}
+h2 {
+	background-color:orange; 
+	color:black; 
+	text-align:left; 
+}
+
+h3 {
+	background-color:orange; 
+	color:black; 
+	text-align:center; 
+}
+
+#image{
+	cursor: crosshair;
+	position: relative;
+	top:130px;
+	left:0px;
+}
+
+#div{
+	position:relative;
+
+}
+#frame{
+	position:absolute;
+	top:-20px;
+	left:-30px;
+}
+
+img.croppers{
+	cursor: crosshair;
+	position:absolute;
+}
+	
+input.coord{
+	width:50px;
+}
+	
+a:link {
+	color: red;
+}
+a:visited {
+	color: purple;
+}
+a:hover {
+	color: yellow;
+}
+hr{
+	color:orange;
+}
+	
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+	border:0;
+}
+table.left{
+	text-align:left;
+}
+
+div.left{
+	text-align:left;
+}
+div.right{
+	text-align:right;
+}
+div.center{
+	text-align:center;
+}
